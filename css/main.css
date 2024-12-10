@@ -1,0 +1,581 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Lobster", cursive;
+  font-size: 16px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.inner {
+  padding: 0 0 120px;
+}
+
+header {
+  background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
+    url(../images/1.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 185px 0;
+  color: white;
+  font-size: 1.8rem;
+  font-style: italic;
+  letter-spacing: 1.4px;
+  text-align: center;
+}
+
+header img {
+  width: 130px;
+  margin-bottom: 15px;
+}
+
+.nav-flex {
+  background: #222222;
+  padding: 30px;
+  text-align: center;
+}
+
+nav {
+  width: 50%;
+  margin: 0 auto;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  margin: 0 15px;
+  transition-duration: 200ms;
+}
+
+nav a:hover {
+  color: #cb570c;
+  padding-bottom: 2px;
+  border-bottom: 2px solid #cb570c;
+}
+
+#welcome {
+  margin: 0 auto;
+}
+
+.welcome-heading {
+  margin: 50px auto;
+  text-align: center;
+  justify-content: center;
+}
+
+.welcome-heading h1 {
+  color: #2d2c2e;
+  font-size: 2rem;
+  margin: 20px 0 50px;
+  font-style: italic;
+}
+
+.orange {
+  color: #cb570c;
+}
+
+.line {
+  display: flex;
+  justify-content: center;
+}
+
+.line hr {
+  width: 185px;
+  height: 1px;
+  margin-top: 8px;
+  border: none;
+  background: #594a42;
+}
+
+.fa.fa-star {
+  color: #594a42;
+  padding: 0 6px;
+  font-size: 1.2rem;
+}
+
+.welcome-sections {
+  display: flex;
+  margin: 15px auto;
+  justify-content: center;
+  width: 75%;
+  font-family: "Open Sans", sans-serif;
+}
+
+.welcome-sections .section {
+  padding: 30px;
+  background: #f9f9f9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  width: 510px;
+  margin: 50px 50px 0;
+}
+
+.welcome-sections .section img {
+  width: 450px;
+}
+
+.welcome-sections .section h1 {
+  text-align: center;
+  padding: 10px 0 20px;
+  font-size: 1.3rem;
+}
+
+.welcome-sections .section p {
+  padding-bottom: 10px;
+  font-size: 0.85rem;
+  font-weight: 200;
+}
+
+#menu {
+  justify-content: center;
+}
+
+.menu-wrapper {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.heading {
+  margin-bottom: 45px;
+}
+
+.heading h1 {
+  color: #2d2c2e;
+  font-size: 2rem;
+  margin: 20px 0 25px;
+  font-style: italic;
+  text-align: center;
+}
+
+.section-flex {
+  display: flex;
+  font-family: "Open Sans", sans-serif;
+}
+
+.section {
+  width: 30%;
+  margin: 0 auto;
+  padding: 30px;
+  box-shadow: 0 0 30px rgba(128, 128, 128, 0.6);
+}
+
+.section-heading h1 {
+  color: #cb570c;
+  text-align: center;
+  margin: 10px 0 25px;
+}
+
+.content {
+  margin-bottom: 50px;
+}
+
+.content img {
+  width: 150px;
+  height: 150px;
+  border-radius: 300px;
+  margin: 0 30px 30px 0;
+  float: left;
+}
+
+.content-text h1 {
+  margin-bottom: 5px;
+  font-size: 1.2rem;
+}
+
+.content-text p {
+  color: #7a7a7a;
+}
+
+.dish-wrapper {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.figure-flex {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  padding-left: 30px;
+}
+
+.figure-norm,
+.figure-long {
+  display: block;
+  margin-right: 35px;
+}
+
+.upper {
+  padding-bottom: 35px;
+}
+
+figure,
+figure img {
+  font-family: "Open Sans", sans-serif;
+  width: 320px;
+  transition-duration: 200ms;
+}
+
+figcaption {
+  background: #222222;
+  position: relative;
+  top: -5px;
+}
+
+.f-h1 {
+  color: white;
+  font-size: 1.4rem;
+  padding: 30px 30px 10px;
+  transition-duration: 200ms;
+}
+
+.f-p {
+  color: gray;
+  padding: 0 30px 30px;
+}
+
+figure:hover .f-h1 {
+  color: #cb570c;
+}
+
+figure:hover img {
+  filter: grayscale(0.8);
+}
+
+#comment {
+  margin: 0 auto;
+}
+
+.comment-wrapper {
+  /* width: 60%; */
+  justify-content: center;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.comment-heading h1 {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.2rem;
+  color: #2d2c2e;
+  margin-bottom: 50px;
+}
+
+.comment-quote {
+  display: flex;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 35px;
+}
+
+.comment-quote img {
+  width: 80px;
+  height: 80px;
+  margin-right: 10px;
+}
+
+.comment-text {
+  display: block;
+}
+
+.comment-text p {
+  color: #999999;
+  font-style: italic;
+}
+
+.comment-text p:first-child {
+  padding-bottom: 10px;
+  width: 980px;
+}
+
+.quotes-flex {
+  display: block;
+}
+
+.quotes {
+  color: #cb570c;
+  font-style: normal;
+  float: right;
+  font-size: 1.2rem;
+}
+
+.stars {
+  display: flex;
+  float: right;
+}
+
+.stars .fa.fa-star {
+  color: #cb570c;
+  padding: 3px;
+  font-size: 1.1rem;
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+  font-family: "Open Sans", sans-serif;
+}
+
+.input,
+.area {
+  width: 100%;
+  padding: 20px 30px;
+  margin-bottom: 35px;
+  font-size: 1.1rem;
+  border-radius: 2px;
+  border: 2px solid #e9eaea;
+}
+
+.login {
+  display: flex;
+}
+
+.input {
+  width: 48%;
+}
+
+.input:first-child {
+  margin-right: 4%;
+}
+
+.area {
+  height: 160px;
+}
+
+::-webkit-input-placeholder {
+  font-family: "Open Sans", sans-serif;
+}
+
+.contact {
+  padding: 15px 30px;
+  color: whitesmoke;
+  background: #333333;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+  border: none;
+  border-radius: 4px;
+  transition-duration: 100ms;
+}
+
+.contact:hover {
+  color: #333333;
+  background: none;
+  border: 1px solid #333333;
+  padding: 14px 29px;
+  cursor: pointer;
+}
+
+footer {
+  background: #cc580c;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  height: 250px;
+}
+
+#go-up {
+  position: relative;
+  top: -35px;
+  padding: 20px 27px;
+  font-size: 1.8rem;
+  border: none;
+  border-radius: 50px;
+  transition-duration: 300ms;
+}
+
+#go-up:hover {
+  background: #cb570c;
+  cursor: pointer;
+}
+
+#go-up:hover .fa-angle-double-up {
+  color: white;
+}
+
+footer button a {
+  color: #cb570c;
+}
+
+.social-webs {
+  margin: 15px 0 30px;
+}
+
+.social-webs .fa {
+  font-size: 1.3rem;
+  padding: 20px;
+  margin: 5px;
+  width: 55px;
+  color: whitesmoke;
+  background: #a3460a;
+  border-radius: 4px;
+  transition-duration: 300ms;
+}
+
+.social-webs .fa:hover {
+  background: #222222;
+}
+
+.social-webs .fa.fa-twitter:hover {
+  color: #00acee;
+}
+
+.social-webs .fa.fa-facebook:hover {
+  color: #3b5998;
+}
+
+.social-webs .fa.fa-linkedin:hover {
+  color: #0072b1;
+}
+
+.social-webs .fa.fa-pinterest:hover {
+  color: #e60023;
+}
+
+.social-webs .fa.fa-flickr:hover {
+  color: #0063dc;
+}
+
+footer p {
+  text-transform: uppercase;
+  color: whitesmoke;
+  font-size: 0.9rem;
+  cursor: default;
+}
+
+@media (max-width: 375px) {
+  header {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+      url(../images/1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 160px 0;
+  }
+
+  nav {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  nav a {
+    margin: 0 20px 0 0;
+    transition-duration: 200ms;
+  }
+
+  .welcome-sections {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .welcome-sections .section {
+    width: 350px;
+    margin: 40px auto;
+  }
+
+  .welcome-sections .section img {
+    width: 290px;
+  }
+
+  #menu {
+    justify-content: center;
+  }
+
+  .menu-wrapper {
+    width: 100%;
+  }
+
+  .section-flex {
+    display: block;
+  }
+
+  .section {
+    width: 90%;
+    margin-bottom: 40px;
+  }
+
+  .section-heading h1 {
+    margin: 10px 0 35px;
+  }
+
+  .content img {
+    width: 110px;
+    height: 110px;
+  }
+
+  .content-text h1 {
+    font-size: 1rem;
+  }
+
+  .dish-wrapper {
+    width: 85%;
+    margin: 0 auto;
+  }
+
+  .figure-flex {
+    display: block;
+  }
+
+  .figure-norm,
+  .figure-long {
+    display: block;
+    margin-bottom: 35px;
+  }
+
+  .comment-wrapper {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .comment-quote img {
+    width: 60px;
+    height: 60px;
+  }
+
+  .comment-text p:first-child {
+    width: 90%;
+  }
+
+  .container {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .input,
+  .area {
+    width: 80%;
+    margin-bottom: 25px;
+  }
+
+  .login {
+    display: block;
+  }
+
+  .input {
+    width: 80%;
+  }
+
+  .input:first-child {
+    margin-right: 0;
+  }
+
+  .area {
+    height: 120px;
+  }
+
+  .contact {
+    padding: 15px 30px;
+  }
+}
